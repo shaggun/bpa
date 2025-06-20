@@ -60,7 +60,7 @@
         // https://raw.githubusercontent.com/goodtube4u/goodtube/refs/heads/main/goodtube.js
         // Mine
         // https://raw.githubusercontent.com/shaggun/goodtube/refs/heads/master/goodtube.js
-		fetch('https://raw.githubusercontent.com/goodtube4u/goodtube/refs/heads/main/goodtube.js')
+		fetch('https://raw.githubusercontent.com/shaggun/goodtube/refs/heads/master/goodtube.js')
 			// Success
 			.then(response => response.text())
 			.then(data => {
