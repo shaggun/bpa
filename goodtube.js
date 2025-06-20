@@ -825,7 +825,7 @@
 		goodTube_page_api = document.getElementById('movie_player');
 
 		// If autoplay is enabled
-		if (goodTube_autoplay === 'true') {
+		if (goodTube_autoplay === 'true' && goodTube_page_api.getPlaylist()) {
 			// Play the next video
 			goodTube_nav_next();
 		}
